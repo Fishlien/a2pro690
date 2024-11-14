@@ -11,5 +11,7 @@ RUN npm install --production
 
 COPY . .
 
+ENTRYPOINT []
+
 EXPOSE 8080
 CMD [ "node", "server.js" ]
